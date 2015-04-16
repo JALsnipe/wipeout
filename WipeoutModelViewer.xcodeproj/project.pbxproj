@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F5BC0061AE03F3000B84DF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5BC0051AE03F3000B84DF7 /* main.m */; };
+		5F5BC0091AE03F3000B84DF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5BC0081AE03F3000B84DF7 /* AppDelegate.m */; };
+		5F5BC00C1AE03F3000B84DF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5BC00B1AE03F3000B84DF7 /* ViewController.m */; };
+		5F5BC00F1AE03F3000B84DF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F5BC00D1AE03F3000B84DF7 /* Main.storyboard */; };
+		5F5BC0111AE03F3000B84DF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F5BC0101AE03F3000B84DF7 /* Images.xcassets */; };
+		5F5BC0141AE03F3000B84DF7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F5BC0121AE03F3000B84DF7 /* LaunchScreen.xib */; };
+		5F5BC0201AE03F3000B84DF7 /* WipeoutModelViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5BC01F1AE03F3000B84DF7 /* WipeoutModelViewerTests.m */; };
+		5F5BC02E1AE0438700B84DF7 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 5F5BC0291AE0438700B84DF7 /* index.html */; };
+		5F5BC02F1AE0438700B84DF7 /* js-struct.js in Resources */ = {isa = PBXBuildFile; fileRef = 5F5BC02A1AE0438700B84DF7 /* js-struct.js */; };
+		5F5BC0301AE0438700B84DF7 /* orbit-controls.js in Resources */ = {isa = PBXBuildFile; fileRef = 5F5BC02B1AE0438700B84DF7 /* orbit-controls.js */; };
+		5F5BC0311AE0438700B84DF7 /* three.js in Resources */ = {isa = PBXBuildFile; fileRef = 5F5BC02C1AE0438700B84DF7 /* three.js */; };
+		5F5BC0321AE0438700B84DF7 /* wipeout.js in Resources */ = {isa = PBXBuildFile; fileRef = 5F5BC02D1AE0438700B84DF7 /* wipeout.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F5BC01A1AE03F3000B84DF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F5BBFF81AE03F3000B84DF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F5BBFFF1AE03F3000B84DF7;
+			remoteInfo = WipeoutModelViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F5BC0001AE03F3000B84DF7 /* WipeoutModelViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WipeoutModelViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F5BC0041AE03F3000B84DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F5BC0051AE03F3000B84DF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F5BC0071AE03F3000B84DF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F5BC0081AE03F3000B84DF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F5BC00A1AE03F3000B84DF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F5BC00B1AE03F3000B84DF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F5BC00E1AE03F3000B84DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F5BC0101AE03F3000B84DF7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5F5BC0131AE03F3000B84DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5F5BC0191AE03F3000B84DF7 /* WipeoutModelViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WipeoutModelViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F5BC01E1AE03F3000B84DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F5BC01F1AE03F3000B84DF7 /* WipeoutModelViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WipeoutModelViewerTests.m; sourceTree = "<group>"; };
+		5F5BC0291AE0438700B84DF7 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		5F5BC02A1AE0438700B84DF7 /* js-struct.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "js-struct.js"; sourceTree = "<group>"; };
+		5F5BC02B1AE0438700B84DF7 /* orbit-controls.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "orbit-controls.js"; sourceTree = "<group>"; };
+		5F5BC02C1AE0438700B84DF7 /* three.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = three.js; sourceTree = "<group>"; };
+		5F5BC02D1AE0438700B84DF7 /* wipeout.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = wipeout.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F5BBFFD1AE03F3000B84DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5BC0161AE03F3000B84DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F5BBFF71AE03F3000B84DF7 = {
+			isa = PBXGroup;
+			children = (
+				5F5BC0331AE0439400B84DF7 /* wipeout.js */,
+				5F5BC0021AE03F3000B84DF7 /* WipeoutModelViewer */,
+				5F5BC01C1AE03F3000B84DF7 /* WipeoutModelViewerTests */,
+				5F5BC0011AE03F3000B84DF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F5BC0011AE03F3000B84DF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F5BC0001AE03F3000B84DF7 /* WipeoutModelViewer.app */,
+				5F5BC0191AE03F3000B84DF7 /* WipeoutModelViewerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F5BC0021AE03F3000B84DF7 /* WipeoutModelViewer */ = {
+			isa = PBXGroup;
+			children = (
+				5F5BC0071AE03F3000B84DF7 /* AppDelegate.h */,
+				5F5BC0081AE03F3000B84DF7 /* AppDelegate.m */,
+				5F5BC00A1AE03F3000B84DF7 /* ViewController.h */,
+				5F5BC00B1AE03F3000B84DF7 /* ViewController.m */,
+				5F5BC00D1AE03F3000B84DF7 /* Main.storyboard */,
+				5F5BC0101AE03F3000B84DF7 /* Images.xcassets */,
+				5F5BC0121AE03F3000B84DF7 /* LaunchScreen.xib */,
+				5F5BC0031AE03F3000B84DF7 /* Supporting Files */,
+			);
+			path = WipeoutModelViewer;
+			sourceTree = "<group>";
+		};
+		5F5BC0031AE03F3000B84DF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F5BC0041AE03F3000B84DF7 /* Info.plist */,
+				5F5BC0051AE03F3000B84DF7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F5BC01C1AE03F3000B84DF7 /* WipeoutModelViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F5BC01F1AE03F3000B84DF7 /* WipeoutModelViewerTests.m */,
+				5F5BC01D1AE03F3000B84DF7 /* Supporting Files */,
+			);
+			path = WipeoutModelViewerTests;
+			sourceTree = "<group>";
+		};
+		5F5BC01D1AE03F3000B84DF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F5BC01E1AE03F3000B84DF7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F5BC0331AE0439400B84DF7 /* wipeout.js */ = {
+			isa = PBXGroup;
+			children = (
+				5F5BC0291AE0438700B84DF7 /* index.html */,
+				5F5BC02A1AE0438700B84DF7 /* js-struct.js */,
+				5F5BC02B1AE0438700B84DF7 /* orbit-controls.js */,
+				5F5BC02C1AE0438700B84DF7 /* three.js */,
+				5F5BC02D1AE0438700B84DF7 /* wipeout.js */,
+			);
+			name = wipeout.js;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F5BBFFF1AE03F3000B84DF7 /* WipeoutModelViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F5BC0231AE03F3000B84DF7 /* Build configuration list for PBXNativeTarget "WipeoutModelViewer" */;
+			buildPhases = (
+				5F5BBFFC1AE03F3000B84DF7 /* Sources */,
+				5F5BBFFD1AE03F3000B84DF7 /* Frameworks */,
+				5F5BBFFE1AE03F3000B84DF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WipeoutModelViewer;
+			productName = WipeoutModelViewer;
+			productReference = 5F5BC0001AE03F3000B84DF7 /* WipeoutModelViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F5BC0181AE03F3000B84DF7 /* WipeoutModelViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F5BC0261AE03F3000B84DF7 /* Build configuration list for PBXNativeTarget "WipeoutModelViewerTests" */;
+			buildPhases = (
+				5F5BC0151AE03F3000B84DF7 /* Sources */,
+				5F5BC0161AE03F3000B84DF7 /* Frameworks */,
+				5F5BC0171AE03F3000B84DF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F5BC01B1AE03F3000B84DF7 /* PBXTargetDependency */,
+			);
+			name = WipeoutModelViewerTests;
+			productName = WipeoutModelViewerTests;
+			productReference = 5F5BC0191AE03F3000B84DF7 /* WipeoutModelViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F5BBFF81AE03F3000B84DF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Josh L";
+				TargetAttributes = {
+					5F5BBFFF1AE03F3000B84DF7 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					5F5BC0181AE03F3000B84DF7 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 5F5BBFFF1AE03F3000B84DF7;
+					};
+				};
+			};
+			buildConfigurationList = 5F5BBFFB1AE03F3000B84DF7 /* Build configuration list for PBXProject "WipeoutModelViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F5BBFF71AE03F3000B84DF7;
+			productRefGroup = 5F5BC0011AE03F3000B84DF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F5BBFFF1AE03F3000B84DF7 /* WipeoutModelViewer */,
+				5F5BC0181AE03F3000B84DF7 /* WipeoutModelViewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F5BBFFE1AE03F3000B84DF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5BC00F1AE03F3000B84DF7 /* Main.storyboard in Resources */,
+				5F5BC0311AE0438700B84DF7 /* three.js in Resources */,
+				5F5BC0321AE0438700B84DF7 /* wipeout.js in Resources */,
+				5F5BC02E1AE0438700B84DF7 /* index.html in Resources */,
+				5F5BC02F1AE0438700B84DF7 /* js-struct.js in Resources */,
+				5F5BC0141AE03F3000B84DF7 /* LaunchScreen.xib in Resources */,
+				5F5BC0111AE03F3000B84DF7 /* Images.xcassets in Resources */,
+				5F5BC0301AE0438700B84DF7 /* orbit-controls.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5BC0171AE03F3000B84DF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F5BBFFC1AE03F3000B84DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5BC00C1AE03F3000B84DF7 /* ViewController.m in Sources */,
+				5F5BC0091AE03F3000B84DF7 /* AppDelegate.m in Sources */,
+				5F5BC0061AE03F3000B84DF7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5BC0151AE03F3000B84DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5BC0201AE03F3000B84DF7 /* WipeoutModelViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F5BC01B1AE03F3000B84DF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F5BBFFF1AE03F3000B84DF7 /* WipeoutModelViewer */;
+			targetProxy = 5F5BC01A1AE03F3000B84DF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F5BC00D1AE03F3000B84DF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F5BC00E1AE03F3000B84DF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F5BC0121AE03F3000B84DF7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F5BC0131AE03F3000B84DF7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F5BC0211AE03F3000B84DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F5BC0221AE03F3000B84DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F5BC0241AE03F3000B84DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WipeoutModelViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F5BC0251AE03F3000B84DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WipeoutModelViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5F5BC0271AE03F3000B84DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WipeoutModelViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WipeoutModelViewer.app/WipeoutModelViewer";
+			};
+			name = Debug;
+		};
+		5F5BC0281AE03F3000B84DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WipeoutModelViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WipeoutModelViewer.app/WipeoutModelViewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F5BBFFB1AE03F3000B84DF7 /* Build configuration list for PBXProject "WipeoutModelViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5BC0211AE03F3000B84DF7 /* Debug */,
+				5F5BC0221AE03F3000B84DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F5BC0231AE03F3000B84DF7 /* Build configuration list for PBXNativeTarget "WipeoutModelViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5BC0241AE03F3000B84DF7 /* Debug */,
+				5F5BC0251AE03F3000B84DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F5BC0261AE03F3000B84DF7 /* Build configuration list for PBXNativeTarget "WipeoutModelViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5BC0271AE03F3000B84DF7 /* Debug */,
+				5F5BC0281AE03F3000B84DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F5BBFF81AE03F3000B84DF7 /* Project object */;
+}
