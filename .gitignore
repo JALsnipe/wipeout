@@ -1,3 +1,5 @@
 WIPEOUT/*
 !WIPEOUT/README.md
 soundtrack/*
+
+.DS_Store
